@@ -1,0 +1,1245 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+ACK	xmodem.c	47;"	d	file:
+ACTIVE_33V	include/scc.h	318;"	d
+ACT_ERASE	flash.c	/^	ACT_ERASE,$/;"	e	file:
+ACT_LOCK	flash.c	/^	ACT_LOCK,$/;"	e	file:
+ACT_PGM	flash.c	/^	ACT_PGM,$/;"	e	file:
+ACT_UNLOCK	flash.c	/^	ACT_UNLOCK,$/;"	e	file:
+ACT_WRITE_BUF	flash.c	/^	ACT_WRITE_BUF,$/;"	e	file:
+ADAPTER_CNF_OFFSET	include/scc.h	436;"	d
+ADDR16	include/main.h	29;"	d
+ADDR32	include/main.h	28;"	d
+ADDR8	include/main.h	30;"	d
+ADD_MASK	include/scc.h	116;"	d
+ADD_PORT	include/scc.h	388;"	d
+ADD_SIG	include/scc.h	117;"	d
+ALLOW_FDX	include/scc.h	332;"	d
+ANY_ISA_DMA	include/scc.h	460;"	d
+ARPOP_REPLY	include/header.h	131;"	d
+ARPOP_REQUEST	include/header.h	130;"	d
+ARP_ETHER	include/header.h	128;"	d
+ARP_HDR_SIZE	include/header.h	126;"	d
+ARP_HEADER	include/header.h	/^} ARP_HEADER;$/;"	t
+AUI_LOOPBACK	include/scc.h	271;"	d
+AUI_ON	include/scc.h	312;"	d
+AUI_ONLY	include/scc.h	243;"	d
+AUTOINCREMENT	include/scc.h	356;"	d
+AUTO_AUI_10BASET	include/scc.h	244;"	d
+AUTO_NEG_BITS	include/scc.h	336;"	d
+AUTO_NEG_BUSY	include/scc.h	340;"	d
+AUTO_NEG_CNF_OFFSET	include/scc.h	422;"	d
+AUTO_NEG_ENABLE	include/scc.h	333;"	d
+AUTO_NEG_MASK	include/scc.h	337;"	d
+AUTO_RX_DMA	include/scc.h	189;"	d
+AUTO_WAKEUP	include/scc.h	254;"	d
+A_CNF_10B_2	include/scc.h	439;"	d
+A_CNF_10B_T	include/scc.h	437;"	d
+A_CNF_AUI	include/scc.h	438;"	d
+A_CNF_DC_DC_POLARITY	include/scc.h	445;"	d
+A_CNF_EXTND_10B_2	include/scc.h	448;"	d
+A_CNF_LOW_RX_SQUELCH	include/scc.h	447;"	d
+A_CNF_MEDIA_10B_2	include/scc.h	444;"	d
+A_CNF_MEDIA_10B_T	include/scc.h	442;"	d
+A_CNF_MEDIA_AUI	include/scc.h	443;"	d
+A_CNF_MEDIA_AUTO	include/scc.h	441;"	d
+A_CNF_MEDIA_TYPE	include/scc.h	440;"	d
+A_CNF_NO_AUTO_POLARITY	include/scc.h	446;"	d
+BACKOFF_OFF	include/scc.h	272;"	d
+BIN_FILE	Makefile	/^BIN_FILE = x-boot255$/;"	m
+BIOS_LAST_OFFSET	include/scc.h	417;"	d
+BIOS_OFFSET_INC	include/scc.h	411;"	d
+BIOS_OFFSET_INC	include/scc.h	414;"	d
+BIOS_START_SEG	include/scc.h	410;"	d
+BIOS_START_SEG	include/scc.h	413;"	d
+BIT0	include/scc.h	515;"	d
+BIT15	include/scc.h	516;"	d
+BLOCK_LOCK_BIT_CLEAR	include/flash.h	131;"	d
+BLOCK_LOCK_BIT_CLEAR	include/flash.h	95;"	d
+BLOCK_LOCK_BIT_SET	include/flash.h	130;"	d
+BLOCK_LOCK_BIT_SET	include/flash.h	94;"	d
+BOOTP_CONTINUE	bootp.c	29;"	d	file:
+BOOTP_FAILURE	bootp.c	27;"	d	file:
+BOOTP_HDR_SIZE	include/header.h	153;"	d
+BOOTP_HEADER	include/header.h	/^} BOOTP_HEADER;$/;"	t
+BOOTP_SIZE	include/header.h	154;"	d
+BOOTP_SUCCESS	bootp.c	28;"	d	file:
+BS	xmodem.c	50;"	d	file:
+BUFFER_CRC	include/scc.h	190;"	d
+BUF_CFG	include/scc.h	167;"	d
+BUF_EVENT	include/scc.h	176;"	d
+BUS_CONTROL	include/scc.h	170;"	d
+BUS_STATUS	include/scc.h	181;"	d
+BootpRx	bootp.c	/^bool BootpRx(char *bootpHeader, short len){$/;"	f
+BootpTx	bootp.c	/^bool BootpTx(void){$/;"	f
+CAN	xmodem.c	49;"	d	file:
+CC	Makefile	/^CC = \/usr\/local\/hybus-arm-linux-R1.1\/bin\/arm-linux-gcc$/;"	m
+CCCR	include/start_xscale.h	38;"	d
+CCCR	include/start_xscale_org.h	38;"	d
+CCCR	include/xscale.h	35;"	d
+CCCR_VALUE	include/start_xscale.h	43;"	d
+CCCR_VALUE	include/start_xscale_org.h	43;"	d
+CCCR_VALUE	include/xscale.h	40;"	d
+CFILES	Makefile	/^CFILES = $(wildcard *.c)$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -O2 -nostdinc -mcpu=strongarm110 -mapcs-32 -fomit-frame-pointer -fPIC $(INCLUDE)  -Wall $(CFLAGSII)$/;"	m
+CHIP_EISA_ID_SIG	include/scc.h	125;"	d
+CHIP_READ	include/scc.h	404;"	d
+CHKSUM_LEN	include/scc.h	486;"	d
+CHKSUM_VAL	include/scc.h	487;"	d
+CKEN	include/start_xscale.h	39;"	d
+CKEN	include/start_xscale_org.h	39;"	d
+CKEN	include/xscale.h	36;"	d
+CKEN_VALUE	include/start_xscale.h	45;"	d
+CKEN_VALUE	include/start_xscale_org.h	45;"	d
+CKEN_VALUE	include/xscale.h	45;"	d
+CLIENT_ETHER	include/config.h	108;"	d
+CLK_TO_10MS	include/start_xscale.h	49;"	d
+CLK_TO_10MS	include/start_xscale_org.h	49;"	d
+CLK_TO_10MS	include/xscale.h	49;"	d
+CLOCK_MANAGER_BASE	include/start_xscale.h	36;"	d
+CLOCK_MANAGER_BASE	include/start_xscale_org.h	36;"	d
+CLOCK_MANAGER_BASE	include/xscale.h	33;"	d
+CMD_TBL	include/command.h	/^typedef struct _CMD_TBL			CMD_TBL;$/;"	t
+CMD_TBL_BOOT	command.c	40;"	d	file:
+CMD_TBL_BOOTP	include/bootp.h	30;"	d
+CMD_TBL_DOWNLOAD	include/uucodec.h	7;"	d
+CMD_TBL_END	command.c	74;"	d	file:
+CMD_TBL_ERASE	include/flash.h	32;"	d
+CMD_TBL_FLASH	include/flash.h	23;"	d
+CMD_TBL_HEXDUMP	include/util.h	37;"	d
+CMD_TBL_LOCK	include/flash.h	43;"	d
+CMD_TBL_MEMCMP	include/util.h	44;"	d
+CMD_TBL_MEMCPY	include/util.h	23;"	d
+CMD_TBL_MEMDUMP	include/util.h	30;"	d
+CMD_TBL_MEMSET	include/util.h	51;"	d
+CMD_TBL_READ	include/util.h	64;"	d
+CMD_TBL_REBOOT	command.c	61;"	d	file:
+CMD_TBL_RELOAD	command.c	47;"	d	file:
+CMD_TBL_RX	include/xmodem.h	14;"	d
+CMD_TBL_STATUS	command.c	53;"	d	file:
+CMD_TBL_TEST	command.c	67;"	d	file:
+CMD_TBL_TFTP	include/tftp.h	23;"	d
+CMD_TBL_UNLOCK	include/flash.h	55;"	d
+CMD_TBL_WRITE	include/util.h	57;"	d
+COMPILE	Makefile	/^COMPILE = $(CC) $(CFLAGS)$/;"	m
+CRS_OK	include/scc.h	315;"	d
+CS8900	include/scc.h	481;"	d
+CS8900_IRQ_MAP	include/scc.h	492;"	d
+CS8920	include/scc.h	482;"	d
+CS8920M	include/scc.h	483;"	d
+CS8920_NO_INTS	include/scc.h	494;"	d
+ClearLine	command.c	/^void ClearLine(void){$/;"	f
+DATA_PORT	include/scc.h	389;"	d
+DEC	uucodec.c	16;"	d	file:
+DEFAULTIOBASE	include/scc.h	113;"	d
+DEF_RX_ACCEPT	include/scc.h	207;"	d
+DELAY_BEFORE_BOOT	include/config.h	111;"	d
+DFBR0	include/xscale.h	162;"	d
+DFBR1	include/xscale.h	163;"	d
+DMA_BASE	include/scc.h	463;"	d
+DMA_BASE_2	include/scc.h	464;"	d
+DMA_BURST	include/scc.h	458;"	d
+DMA_BURST_MODE	include/scc.h	263;"	d
+DMA_DISABLE	include/scc.h	472;"	d
+DMA_ENABLE	include/scc.h	473;"	d
+DMA_MASK	include/scc.h	467;"	d
+DMA_MODE	include/scc.h	468;"	d
+DMA_NO_MASK	include/scc.h	454;"	d
+DMA_READ	include/scc.h	405;"	d
+DMA_RESETFF	include/scc.h	469;"	d
+DMA_RX_MODE	include/scc.h	475;"	d
+DMA_SIZE	include/scc.h	479;"	d
+DMA_STAT	include/scc.h	466;"	d
+DMA_TX_MODE	include/scc.h	477;"	d
+DMRQ0	include/scc.h	136;"	d
+DMRQ1	include/scc.h	137;"	d
+DMRQ2	include/scc.h	138;"	d
+DMRQ_HIGH_IMPEDENCE	include/scc.h	139;"	d
+DRAM_BASE_ADDR	include/config.h	53;"	d
+DRAM_SIZE	include/config.h	54;"	d
+DecToLong	lstring.c	/^bool DecToLong(char *s, long *retval){$/;"	f
+DisplayPrompt	command.c	/^void DisplayPrompt(char *prompt){$/;"	f
+DoBootKernel	command.c	/^bool DoBootKernel(CMD_TBL *cptr, int argc, char **argv){$/;"	f
+DoBootp	bootp.c	/^bool DoBootp(CMD_TBL *cptr, int argc, char **argv){$/;"	f
+DoDownload	uucodec.c	/^bool DoDownload(CMD_TBL *cptr, int argc, char **argv){$/;"	f
+DoEraseFlashBlocks	flash.c	/^bool DoEraseFlashBlocks(CMD_TBL *cptr, int argc, char **argv){$/;"	f
+DoFlashLock	flash.c	/^bool DoFlashLock(CMD_TBL *cptr, int argc, char **argv){$/;"	f
+DoFlashUnlock	flash.c	/^bool DoFlashUnlock(CMD_TBL *cptr, int argc, char **argv){$/;"	f
+DoHexDump	util.c	/^bool DoHexDump(CMD_TBL *cptr, int argc, char **argv){$/;"	f
+DoMemCmp	util.c	/^bool DoMemCmp(CMD_TBL *cptr, int argc, char **argv){$/;"	f
+DoMemCpy	util.c	/^bool DoMemCpy(CMD_TBL *cptr, int argc, char **argv){$/;"	f
+DoMemDump	util.c	/^bool DoMemDump(CMD_TBL *cptr, int argc, char **argv){$/;"	f
+DoMemSet	util.c	/^bool DoMemSet(CMD_TBL *cptr, int argc, char **argv){$/;"	f
+DoPrintStatus	command.c	/^bool DoPrintStatus(CMD_TBL *cptr, int argc, char **argv){$/;"	f
+DoPrintfHelp	main.c	/^bool DoPrintfHelp(int argc, char **argv){$/;"	f
+DoPrintfHelp	main_org.C	/^bool DoPrintfHelp(int argc, char **argv){$/;"	f
+DoRX	xmodem.c	/^bool DoRX(CMD_TBL *cptr, int argc, char **argv)$/;"	f
+DoReadFromReg	util.c	/^bool DoReadFromReg(CMD_TBL *cptr, int argc, char **argv){$/;"	f
+DoReboot	command.c	/^bool DoReboot(CMD_TBL *cptr, int argc, char **argv){$/;"	f
+DoReload	command.c	/^bool DoReload(CMD_TBL *cptr, int argc, char **argv){$/;"	f
+DoResetTerminal	command.c	/^bool DoResetTerminal(CMD_TBL *cptr, int argc, char **argv){$/;"	f
+DoTest	command.c	/^bool DoTest(CMD_TBL *cptr, int argc, char **argv){$/;"	f
+DoTftp	tftp.c	/^bool DoTftp(CMD_TBL *cptr, int argc, char **argv){$/;"	f
+DoWriteToFlashBlocks	flash.c	/^bool DoWriteToFlashBlocks(CMD_TBL *cptr, int argc, char **argv){$/;"	f
+DoWriteToReg	util.c	/^bool DoWriteToReg(CMD_TBL *cptr, int argc, char **argv){$/;"	f
+E802_HDR_SIZE	include/header.h	79;"	d
+EEPROM_OK	include/scc.h	322;"	d
+EEPROM_PRESENT	include/scc.h	321;"	d
+EEPROM_READ_CMD	include/scc.h	394;"	d
+EEPROM_WRITE_CMD	include/scc.h	393;"	d
+EEPROM_WRITE_DIS	include/scc.h	392;"	d
+EEPROM_WRITE_EN	include/scc.h	391;"	d
+EEVER_NUMBER	include/scc.h	485;"	d
+EE_ALLOW_FDX	include/scc.h	431;"	d
+EE_AUTO_NEG_CNF_MASK	include/scc.h	432;"	d
+EE_AUTO_NEG_ENABLE	include/scc.h	430;"	d
+EE_FORCE_FDX	include/scc.h	428;"	d
+EE_NLP_ENABLE	include/scc.h	429;"	d
+EE_SIZE_64	include/scc.h	324;"	d
+EISA_ID_SIG	include/scc.h	144;"	d
+EISA_ID_SIG	include/scc.h	148;"	d
+ELF32_LDFLAGS	Makefile	/^ELF32_LDFLAGS = -Wl,-T,ld-xscale$/;"	m
+EL_PRESENT	include/scc.h	323;"	d
+ENABLE_IRQ	include/scc.h	266;"	d
+ENC	uucodec.c	15;"	d	file:
+ENDEC_LOOPBACK	include/scc.h	270;"	d
+EOT	xmodem.c	46;"	d	file:
+ERASE_CONFIRM	include/flash.h	124;"	d
+ERASE_CONFIRM	include/flash.h	88;"	d
+ERASE_PROGRAM_RESUME	include/flash.h	126;"	d
+ERASE_PROGRAM_RESUME	include/flash.h	90;"	d
+ERASE_PROGRAM_SUSPEND	include/flash.h	125;"	d
+ERASE_PROGRAM_SUSPEND	include/flash.h	89;"	d
+ERASE_SETUP	include/flash.h	123;"	d
+ERASE_SETUP	include/flash.h	87;"	d
+ERROR	xmodem.c	55;"	d	file:
+ERSE_WR_DISABLE	include/scc.h	160;"	d
+ERSE_WR_ENBL	include/scc.h	159;"	d
+ETHER_HDR_SIZE	include/header.h	78;"	d
+ETH_HEADER	include/header.h	/^} ETH_HEADER;$/;"	t
+ETH_IO_MAP	include/scc.h	/^} ETH_IO_MAP;$/;"	t
+EraseFlashBlocks	flash.c	/^bool EraseFlashBlocks(FUNIT *addr, ulong len){$/;"	f
+EraseOneFlashBlock	flash.c	/^static bool EraseOneFlashBlock(FUNIT *addr){$/;"	f	file:
+EthHalt	scc.c	/^void EthHalt(void){$/;"	f
+EthInit	scc.c	/^bool EthInit(){$/;"	f
+EthRestart	scc.c	/^void EthRestart(void){$/;"	f
+EthRx	scc.c	/^int EthRx(void *rxPktBuf){$/;"	f
+EthTx	scc.c	/^bool EthTx(void *txPktBuf, int len){$/;"	f
+FAST_TEST	include/scc.h	274;"	d
+FBOUND	include/flash.h	69;"	d
+FBOUND	include/flash.h	72;"	d
+FBOUND	include/flash.h	75;"	d
+FDX_8900	include/scc.h	273;"	d
+FDX_ACTIVE	include/scc.h	345;"	d
+FFDLH	include/serial.h	38;"	d
+FFDLH	include/start_xscale.h	191;"	d
+FFDLH	include/start_xscale_org.h	183;"	d
+FFDLH_VALUE	include/start_xscale.h	202;"	d
+FFDLH_VALUE	include/start_xscale_org.h	194;"	d
+FFDLL	include/serial.h	37;"	d
+FFDLL	include/start_xscale.h	190;"	d
+FFDLL	include/start_xscale_org.h	182;"	d
+FFDLL_VALUE	include/start_xscale.h	201;"	d
+FFDLL_VALUE	include/start_xscale_org.h	193;"	d
+FFFCR	include/serial.h	30;"	d
+FFFCR	include/start_xscale.h	183;"	d
+FFFCR	include/start_xscale_org.h	175;"	d
+FFFCR_VALUE	include/start_xscale.h	195;"	d
+FFFCR_VALUE	include/start_xscale_org.h	187;"	d
+FFIER	include/serial.h	28;"	d
+FFIER	include/start_xscale.h	181;"	d
+FFIER	include/start_xscale_org.h	173;"	d
+FFIER_VALUE	include/start_xscale.h	194;"	d
+FFIER_VALUE	include/start_xscale_org.h	186;"	d
+FFIIR	include/serial.h	29;"	d
+FFIIR	include/start_xscale.h	182;"	d
+FFIIR	include/start_xscale_org.h	174;"	d
+FFISR	include/serial.h	36;"	d
+FFISR	include/start_xscale.h	189;"	d
+FFISR	include/start_xscale_org.h	181;"	d
+FFISR_VALUE	include/start_xscale.h	200;"	d
+FFISR_VALUE	include/start_xscale_org.h	192;"	d
+FFLCR	include/serial.h	31;"	d
+FFLCR	include/start_xscale.h	184;"	d
+FFLCR	include/start_xscale_org.h	176;"	d
+FFLCR_VALUE_SETUP	include/start_xscale.h	196;"	d
+FFLCR_VALUE_SETUP	include/start_xscale_org.h	188;"	d
+FFLCR_VALUE_USAGE	include/start_xscale.h	197;"	d
+FFLCR_VALUE_USAGE	include/start_xscale_org.h	189;"	d
+FFLSR	include/serial.h	33;"	d
+FFLSR	include/start_xscale.h	186;"	d
+FFLSR	include/start_xscale_org.h	178;"	d
+FFMCR	include/serial.h	32;"	d
+FFMCR	include/start_xscale.h	185;"	d
+FFMCR	include/start_xscale_org.h	177;"	d
+FFMCR_VALUE	include/start_xscale.h	198;"	d
+FFMCR_VALUE	include/start_xscale_org.h	190;"	d
+FFMSR	include/serial.h	34;"	d
+FFMSR	include/start_xscale.h	187;"	d
+FFMSR	include/start_xscale_org.h	179;"	d
+FFRBR	include/serial.h	26;"	d
+FFRBR	include/start_xscale.h	179;"	d
+FFRBR	include/start_xscale_org.h	171;"	d
+FFSPR	include/serial.h	35;"	d
+FFSPR	include/start_xscale.h	188;"	d
+FFSPR	include/start_xscale_org.h	180;"	d
+FFSPR_VALUE	include/start_xscale.h	199;"	d
+FFSPR_VALUE	include/start_xscale_org.h	191;"	d
+FFTHR	include/serial.h	27;"	d
+FFTHR	include/start_xscale.h	180;"	d
+FFTHR	include/start_xscale_org.h	172;"	d
+FFUART_BASE	include/serial.h	25;"	d
+FFUART_BASE	include/start_xscale.h	177;"	d
+FFUART_BASE	include/start_xscale_org.h	169;"	d
+FIRST_IO	include/scc.h	114;"	d
+FLASHBIT	include/config.h	32;"	d
+FLASHBIT	include/config.h	36;"	d
+FLASHNUM	include/config.h	33;"	d
+FLASHNUM	include/config.h	37;"	d
+FLASHSIZE	include/config.h	34;"	d
+FLASHSIZE	include/config.h	38;"	d
+FLASH_ACTION	flash.c	/^} FLASH_ACTION;$/;"	t	file:
+FLASH_BASE	include/flash.h	63;"	d
+FLASH_BLOCK_SIZE	include/flash.h	64;"	d
+FLASH_CFG	include/flash.h	127;"	d
+FLASH_CFG	include/flash.h	91;"	d
+FLASH_SETUP	include/flash.h	128;"	d
+FLASH_SETUP	include/flash.h	92;"	d
+FLASH_SIZE	include/flash.h	65;"	d
+FLP_LINK	include/scc.h	341;"	d
+FLP_LINK_GOOD	include/scc.h	342;"	d
+FLYCNFG_VALUE	include/start_xscale.h	165;"	d
+FLYCNFG_VALUE	include/start_xscale_org.h	157;"	d
+FLYCNFG_VALUE	include/xscale.h	146;"	d
+FORCE_FDX	include/scc.h	335;"	d
+FUNIT	include/flash.h	68;"	d
+FUNIT	include/flash.h	71;"	d
+FUNIT	include/flash.h	74;"	d
+FlashCMD	include/flash.h	111;"	d
+FlashCMD	include/flash.h	147;"	d
+FlashLock	flash.c	/^bool FlashLock(FUNIT *addr){$/;"	f
+FlashUnlock	flash.c	/^bool FlashUnlock(void){$/;"	f
+FullStatusCheck	flash.c	/^bool FullStatusCheck(volatile FUNIT *addr, FLASH_ACTION which){$/;"	f
+GAFR0L_VALUE	include/start_xscale.h	107;"	d
+GAFR0L_VALUE	include/start_xscale_org.h	103;"	d
+GAFR0L_VALUE	include/xscale.h	103;"	d
+GAFR0U_VALUE	include/start_xscale.h	108;"	d
+GAFR0U_VALUE	include/start_xscale_org.h	104;"	d
+GAFR0U_VALUE	include/xscale.h	104;"	d
+GAFR0_L	include/start_xscale.h	75;"	d
+GAFR0_L	include/start_xscale_org.h	75;"	d
+GAFR0_L	include/xscale.h	75;"	d
+GAFR0_U	include/start_xscale.h	76;"	d
+GAFR0_U	include/start_xscale_org.h	76;"	d
+GAFR0_U	include/xscale.h	76;"	d
+GAFR1L_VALUE	include/start_xscale.h	112;"	d
+GAFR1L_VALUE	include/start_xscale_org.h	105;"	d
+GAFR1L_VALUE	include/xscale.h	105;"	d
+GAFR1U_VALUE	include/start_xscale.h	114;"	d
+GAFR1U_VALUE	include/start_xscale_org.h	106;"	d
+GAFR1U_VALUE	include/xscale.h	106;"	d
+GAFR1_L	include/start_xscale.h	77;"	d
+GAFR1_L	include/start_xscale_org.h	77;"	d
+GAFR1_L	include/xscale.h	77;"	d
+GAFR1_U	include/start_xscale.h	78;"	d
+GAFR1_U	include/start_xscale_org.h	78;"	d
+GAFR1_U	include/xscale.h	78;"	d
+GAFR2L_VALUE	include/start_xscale.h	115;"	d
+GAFR2L_VALUE	include/start_xscale_org.h	107;"	d
+GAFR2L_VALUE	include/xscale.h	107;"	d
+GAFR2U_VALUE	include/start_xscale.h	116;"	d
+GAFR2U_VALUE	include/start_xscale_org.h	108;"	d
+GAFR2U_VALUE	include/xscale.h	108;"	d
+GAFR2_L	include/start_xscale.h	79;"	d
+GAFR2_L	include/start_xscale_org.h	79;"	d
+GAFR2_L	include/xscale.h	79;"	d
+GAFR2_U	include/start_xscale.h	80;"	d
+GAFR2_U	include/start_xscale_org.h	80;"	d
+GAFR2_U	include/xscale.h	80;"	d
+GDER0	include/start_xscale.h	72;"	d
+GDER0	include/start_xscale_org.h	72;"	d
+GDER0	include/xscale.h	72;"	d
+GDER1	include/start_xscale.h	73;"	d
+GDER1	include/start_xscale_org.h	73;"	d
+GDER1	include/xscale.h	73;"	d
+GDER2	include/start_xscale.h	74;"	d
+GDER2	include/start_xscale_org.h	74;"	d
+GDER2	include/xscale.h	74;"	d
+GENERATE_SW_INTERRUPT	include/scc.h	230;"	d
+GET_PNP_ISA_STRUCT	include/scc.h	499;"	d
+GFER0	include/start_xscale.h	69;"	d
+GFER0	include/start_xscale_org.h	69;"	d
+GFER0	include/xscale.h	69;"	d
+GFER0_VALUE	include/start_xscale.h	103;"	d
+GFER0_VALUE	include/start_xscale_org.h	99;"	d
+GFER0_VALUE	include/xscale.h	99;"	d
+GFER1	include/start_xscale.h	70;"	d
+GFER1	include/start_xscale_org.h	70;"	d
+GFER1	include/xscale.h	70;"	d
+GFER1_VALUE	include/start_xscale.h	104;"	d
+GFER1_VALUE	include/start_xscale_org.h	100;"	d
+GFER1_VALUE	include/xscale.h	100;"	d
+GFER2	include/start_xscale.h	71;"	d
+GFER2	include/start_xscale_org.h	71;"	d
+GFER2	include/xscale.h	71;"	d
+GFER2_VALUE	include/start_xscale.h	105;"	d
+GFER2_VALUE	include/start_xscale_org.h	101;"	d
+GFER2_VALUE	include/xscale.h	101;"	d
+GPCR0	include/start_xscale.h	63;"	d
+GPCR0	include/start_xscale_org.h	63;"	d
+GPCR0	include/xscale.h	63;"	d
+GPCR0_VALUE	include/start_xscale.h	95;"	d
+GPCR0_VALUE	include/start_xscale_org.h	91;"	d
+GPCR0_VALUE	include/xscale.h	91;"	d
+GPCR1	include/start_xscale.h	64;"	d
+GPCR1	include/start_xscale_org.h	64;"	d
+GPCR1	include/xscale.h	64;"	d
+GPCR1_VALUE	include/start_xscale.h	96;"	d
+GPCR1_VALUE	include/start_xscale_org.h	92;"	d
+GPCR1_VALUE	include/xscale.h	92;"	d
+GPCR2	include/start_xscale.h	65;"	d
+GPCR2	include/start_xscale_org.h	65;"	d
+GPCR2	include/xscale.h	65;"	d
+GPCR2_VALUE	include/start_xscale.h	97;"	d
+GPCR2_VALUE	include/start_xscale_org.h	93;"	d
+GPCR2_VALUE	include/xscale.h	93;"	d
+GPDR0	include/start_xscale.h	57;"	d
+GPDR0	include/start_xscale_org.h	57;"	d
+GPDR0	include/xscale.h	57;"	d
+GPDR0_VALUE	include/start_xscale.h	83;"	d
+GPDR0_VALUE	include/start_xscale_org.h	83;"	d
+GPDR0_VALUE	include/xscale.h	83;"	d
+GPDR1	include/start_xscale.h	58;"	d
+GPDR1	include/start_xscale_org.h	58;"	d
+GPDR1	include/xscale.h	58;"	d
+GPDR1_VALUE	include/start_xscale.h	87;"	d
+GPDR1_VALUE	include/start_xscale_org.h	84;"	d
+GPDR1_VALUE	include/xscale.h	84;"	d
+GPDR2	include/start_xscale.h	59;"	d
+GPDR2	include/start_xscale_org.h	59;"	d
+GPDR2	include/xscale.h	59;"	d
+GPDR2_VALUE	include/start_xscale.h	89;"	d
+GPDR2_VALUE	include/start_xscale_org.h	85;"	d
+GPDR2_VALUE	include/xscale.h	85;"	d
+GPIO_BASE	include/start_xscale.h	52;"	d
+GPIO_BASE	include/start_xscale_org.h	52;"	d
+GPIO_BASE	include/xscale.h	52;"	d
+GPLR0	include/start_xscale.h	54;"	d
+GPLR0	include/start_xscale_org.h	54;"	d
+GPLR0	include/xscale.h	54;"	d
+GPLR1	include/start_xscale.h	55;"	d
+GPLR1	include/start_xscale_org.h	55;"	d
+GPLR1	include/xscale.h	55;"	d
+GPLR2	include/start_xscale.h	56;"	d
+GPLR2	include/start_xscale_org.h	56;"	d
+GPLR2	include/xscale.h	56;"	d
+GPSR0	include/start_xscale.h	60;"	d
+GPSR0	include/start_xscale_org.h	60;"	d
+GPSR0	include/xscale.h	60;"	d
+GPSR0_VALUE	include/start_xscale.h	91;"	d
+GPSR0_VALUE	include/start_xscale_org.h	87;"	d
+GPSR0_VALUE	include/xscale.h	87;"	d
+GPSR1	include/start_xscale.h	61;"	d
+GPSR1	include/start_xscale_org.h	61;"	d
+GPSR1	include/xscale.h	61;"	d
+GPSR1_VALUE	include/start_xscale.h	92;"	d
+GPSR1_VALUE	include/start_xscale_org.h	88;"	d
+GPSR1_VALUE	include/xscale.h	88;"	d
+GPSR2	include/start_xscale.h	62;"	d
+GPSR2	include/start_xscale_org.h	62;"	d
+GPSR2	include/xscale.h	62;"	d
+GPSR2_VALUE	include/start_xscale.h	93;"	d
+GPSR2_VALUE	include/start_xscale_org.h	89;"	d
+GPSR2_VALUE	include/xscale.h	89;"	d
+GRER0	include/start_xscale.h	66;"	d
+GRER0	include/start_xscale_org.h	66;"	d
+GRER0	include/xscale.h	66;"	d
+GRER0_VALUE	include/start_xscale.h	99;"	d
+GRER0_VALUE	include/start_xscale_org.h	95;"	d
+GRER0_VALUE	include/xscale.h	95;"	d
+GRER1	include/start_xscale.h	67;"	d
+GRER1	include/start_xscale_org.h	67;"	d
+GRER1	include/xscale.h	67;"	d
+GRER1_VALUE	include/start_xscale.h	100;"	d
+GRER1_VALUE	include/start_xscale_org.h	96;"	d
+GRER1_VALUE	include/xscale.h	96;"	d
+GRER2	include/start_xscale.h	68;"	d
+GRER2	include/start_xscale_org.h	68;"	d
+GRER2	include/xscale.h	68;"	d
+GRER2_VALUE	include/start_xscale.h	101;"	d
+GRER2_VALUE	include/start_xscale_org.h	97;"	d
+GRER2_VALUE	include/xscale.h	97;"	d
+GetArgs	command.c	/^int GetArgs(char *s, char **argv){$/;"	f
+GetCommand	command.c	/^int GetCommand(char *cmd, int len, int timeout){$/;"	f
+GetTime	time.c	/^ulong GetTime(void){$/;"	f
+HASH_INDEX_MASK	include/scc.h	287;"	d
+HCB0	include/scc.h	257;"	d
+HCB0_ENBL	include/scc.h	255;"	d
+HCB1	include/scc.h	258;"	d
+HCB1_ENBL	include/scc.h	256;"	d
+HDX_ACTIVE	include/scc.h	344;"	d
+HWL_ETHER	include/header.h	158;"	d
+HWT_ETHER	include/header.h	157;"	d
+HZ	include/time.h	23;"	d
+HexDump	lstring.c	/^void HexDump(char *addr, int len){$/;"	f
+HexToInt	lstring.c	/^bool HexToInt(char *s, void *retval, VAR_TYPE type){$/;"	f
+ICCR	include/start_xscale.h	34;"	d
+ICCR	include/start_xscale_org.h	34;"	d
+ICCR	include/xscale.h	31;"	d
+ICFP	include/start_xscale.h	32;"	d
+ICFP	include/start_xscale_org.h	32;"	d
+ICFP	include/xscale.h	29;"	d
+ICIP	include/start_xscale.h	29;"	d
+ICIP	include/start_xscale_org.h	29;"	d
+ICIP	include/xscale.h	26;"	d
+ICLR	include/start_xscale.h	31;"	d
+ICLR	include/start_xscale_org.h	31;"	d
+ICLR	include/xscale.h	28;"	d
+ICMR	include/start_xscale.h	30;"	d
+ICMR	include/start_xscale_org.h	30;"	d
+ICMR	include/xscale.h	27;"	d
+ICPR	include/start_xscale.h	33;"	d
+ICPR	include/start_xscale_org.h	33;"	d
+ICPR	include/xscale.h	30;"	d
+IMM_BIT	include/scc.h	434;"	d
+INCLUDE	Makefile	/^INCLUDE = -I.\/include$/;"	m
+INIT_DONE	include/scc.h	319;"	d
+INTERRUPT_CONTROL_BASE	include/start_xscale.h	27;"	d
+INTERRUPT_CONTROL_BASE	include/start_xscale_org.h	27;"	d
+INTERRUPT_CONTROL_BASE	include/xscale.h	24;"	d
+INTRQ0	include/scc.h	128;"	d
+INTRQ1	include/scc.h	129;"	d
+INTRQ2	include/scc.h	130;"	d
+INTRQ3	include/scc.h	131;"	d
+INTRQ_HIGH_IMPEDENCE	include/scc.h	132;"	d
+INT_BUF_SIZE	uucodec.c	5;"	d	file:
+INT_NO_MASK	include/scc.h	453;"	d
+IO_BASE	include/scc.h	40;"	d
+IO_CHANNEL_READY_ON	include/scc.h	264;"	d
+IO_ISQ	include/scc.h	44;"	d
+IO_PPDATA	include/scc.h	46;"	d
+IO_PPPTR	include/scc.h	45;"	d
+IO_RTX_DATA	include/scc.h	41;"	d
+IO_TXCMD	include/scc.h	42;"	d
+IO_TXLEN	include/scc.h	43;"	d
+IPChksum	net.c	/^unsigned IPChksum(char *ptr, int len){$/;"	f
+IPChksumOK	net.c	/^int IPChksumOK(char *ptr, int len){$/;"	f
+IP_HDR_SIZE	include/header.h	98;"	d
+IP_HEADER	include/header.h	/^} IP_HEADER;$/;"	t
+IRQ_MAP_EEPROM_DATA	include/scc.h	489;"	d
+IRQ_MAP_LEN	include/scc.h	490;"	d
+ISA_AUTO_RxDMA	include/scc.h	456;"	d
+ISA_CNF_OFFSET	include/scc.h	420;"	d
+ISA_DMA_SIZE	include/scc.h	455;"	d
+ISA_RxDMA	include/scc.h	457;"	d
+ISQ_BUFFER_EVENT	include/scc.h	350;"	d
+ISQ_EVENT_MASK	include/scc.h	354;"	d
+ISQ_HIST	include/scc.h	355;"	d
+ISQ_PORT	include/scc.h	387;"	d
+ISQ_RECEIVER_EVENT	include/scc.h	348;"	d
+ISQ_RX_MISS_EVENT	include/scc.h	351;"	d
+ISQ_TRANSMITTER_EVENT	include/scc.h	349;"	d
+ISQ_TX_COL_EVENT	include/scc.h	352;"	d
+IS_DEC	uucodec.c	17;"	d	file:
+IT	flash.c	21;"	d	file:
+IT	flash.c	23;"	d	file:
+KERNEL_DRAM_BASE	include/config.h	74;"	d
+KERNEL_MAX_SIZE	include/config.h	76;"	d
+KERNEL_SRAM_BASE	include/config.h	73;"	d
+LAST_IO	include/scc.h	115;"	d
+LCCR0	include/xscale.h	158;"	d
+LCCR1	include/xscale.h	159;"	d
+LCCR2	include/xscale.h	160;"	d
+LCCR3	include/xscale.h	161;"	d
+LCSLOTBASE	include/scc.h	121;"	d
+LDFLAGS	Makefile	/^LDFLAGS = -static -nostdlib$/;"	m
+LINE_CONTROL	include/scc.h	168;"	d
+LINE_STATUS	include/scc.h	179;"	d
+LINK_FAULT	include/scc.h	343;"	d
+LINK_OFF	include/scc.h	269;"	d
+LINK_OK	include/scc.h	311;"	d
+LOADER_DRAM_BASE	include/config.h	69;"	d
+LOADER_DRAM_MAX_SIZE	include/config.h	67;"	d
+LOADER_MAX_SIZE	include/config.h	94;"	d
+LOADER_SRAM_BASE	include/config.h	93;"	d
+LOADER_SRAM_MAX_SIZE	include/config.h	68;"	d
+LOADER_STATUS	include/main.h	/^} LOADER_STATUS;$/;"	t
+LOW_RX_SQUELCH	include/scc.h	248;"	d
+MAXERRORS	xmodem.c	53;"	d	file:
+MAX_ARGS	include/command.h	24;"	d
+MAX_COMMANDS	include/command.h	23;"	d
+MAX_PKT_SIZE	include/config.h	109;"	d
+MAX_PKT_SIZE	include/net.h	33;"	d
+MAX_RETRIES	uucodec.c	6;"	d	file:
+MCATT0	include/start_xscale.h	130;"	d
+MCATT0	include/start_xscale_org.h	122;"	d
+MCATT0	include/xscale.h	122;"	d
+MCATT0_VALUE	include/start_xscale.h	159;"	d
+MCATT0_VALUE	include/start_xscale_org.h	151;"	d
+MCATT0_VALUE	include/xscale.h	140;"	d
+MCATT1	include/start_xscale.h	131;"	d
+MCATT1	include/start_xscale_org.h	123;"	d
+MCATT1	include/xscale.h	123;"	d
+MCATT1_VALUE	include/start_xscale.h	160;"	d
+MCATT1_VALUE	include/start_xscale_org.h	152;"	d
+MCATT1_VALUE	include/xscale.h	141;"	d
+MCIO0	include/start_xscale.h	132;"	d
+MCIO0	include/start_xscale_org.h	124;"	d
+MCIO0	include/xscale.h	124;"	d
+MCIO0_VALUE	include/start_xscale.h	161;"	d
+MCIO0_VALUE	include/start_xscale_org.h	153;"	d
+MCIO0_VALUE	include/xscale.h	142;"	d
+MCIO1	include/start_xscale.h	133;"	d
+MCIO1	include/start_xscale_org.h	125;"	d
+MCIO1	include/xscale.h	125;"	d
+MCIO1_VALUE	include/start_xscale.h	162;"	d
+MCIO1_VALUE	include/start_xscale_org.h	154;"	d
+MCIO1_VALUE	include/xscale.h	143;"	d
+MCMEM0	include/start_xscale.h	128;"	d
+MCMEM0	include/start_xscale_org.h	120;"	d
+MCMEM0	include/xscale.h	120;"	d
+MCMEM0_VALUE	include/start_xscale.h	157;"	d
+MCMEM0_VALUE	include/start_xscale_org.h	149;"	d
+MCMEM0_VALUE	include/xscale.h	138;"	d
+MCMEM1	include/start_xscale.h	129;"	d
+MCMEM1	include/start_xscale_org.h	121;"	d
+MCMEM1	include/xscale.h	121;"	d
+MCMEM1_VALUE	include/start_xscale.h	158;"	d
+MCMEM1_VALUE	include/start_xscale_org.h	150;"	d
+MCMEM1_VALUE	include/xscale.h	139;"	d
+MDCNFG	include/start_xscale.h	121;"	d
+MDCNFG	include/start_xscale_org.h	113;"	d
+MDCNFG	include/xscale.h	113;"	d
+MDCNFG_VALUE	include/start_xscale.h	138;"	d
+MDCNFG_VALUE	include/start_xscale.h	140;"	d
+MDCNFG_VALUE	include/start_xscale_org.h	130;"	d
+MDCNFG_VALUE	include/start_xscale_org.h	132;"	d
+MDCNFG_VALUE	include/xscale.h	129;"	d
+MDMRS	include/start_xscale.h	134;"	d
+MDMRS	include/start_xscale_org.h	126;"	d
+MDMRS	include/xscale.h	126;"	d
+MDMRS_VALUE	include/start_xscale.h	163;"	d
+MDMRS_VALUE	include/start_xscale_org.h	155;"	d
+MDMRS_VALUE	include/xscale.h	144;"	d
+MDREFR	include/start_xscale.h	122;"	d
+MDREFR	include/start_xscale_org.h	114;"	d
+MDREFR	include/xscale.h	114;"	d
+MDREFR_VALUE	include/start_xscale.h	143;"	d
+MDREFR_VALUE	include/start_xscale_org.h	135;"	d
+MDREFR_VALUE	include/xscale.h	130;"	d
+MECR	include/start_xscale.h	126;"	d
+MECR	include/start_xscale_org.h	118;"	d
+MECR	include/xscale.h	118;"	d
+MECR_VALUE	include/start_xscale.h	155;"	d
+MECR_VALUE	include/start_xscale_org.h	147;"	d
+MECR_VALUE	include/xscale.h	136;"	d
+MEMORY_ON	include/scc.h	262;"	d
+MEM_CTL_BASE	include/start_xscale.h	119;"	d
+MEM_CTL_BASE	include/start_xscale_org.h	111;"	d
+MEM_CTL_BASE	include/xscale.h	111;"	d
+MMIOBASE	include/scc.h	122;"	d
+MODIFIED_BACKOFF	include/scc.h	245;"	d
+MONGOOSE_BIT	include/scc.h	146;"	d
+MONGOOSE_BIT	include/scc.h	150;"	d
+MSC0	include/start_xscale.h	123;"	d
+MSC0	include/start_xscale_org.h	115;"	d
+MSC0	include/xscale.h	115;"	d
+MSC0_VALUE	include/start_xscale.h	147;"	d
+MSC0_VALUE	include/start_xscale.h	149;"	d
+MSC0_VALUE	include/start_xscale_org.h	139;"	d
+MSC0_VALUE	include/start_xscale_org.h	141;"	d
+MSC0_VALUE	include/xscale.h	132;"	d
+MSC1	include/start_xscale.h	124;"	d
+MSC1	include/start_xscale_org.h	116;"	d
+MSC1	include/xscale.h	116;"	d
+MSC1_VALUE	include/start_xscale.h	152;"	d
+MSC1_VALUE	include/start_xscale_org.h	144;"	d
+MSC1_VALUE	include/xscale.h	134;"	d
+MSC2	include/start_xscale.h	125;"	d
+MSC2	include/start_xscale_org.h	117;"	d
+MSC2	include/xscale.h	117;"	d
+MSC2_VALUE	include/start_xscale.h	153;"	d
+MSC2_VALUE	include/start_xscale_org.h	145;"	d
+MSC2_VALUE	include/xscale.h	135;"	d
+MemCmp	lstring.c	/^int MemCmp(void *addr1, void *addr2, int len){$/;"	f
+MemCpy	lstring.c	/^void MemCpy(void *dest, void *src, int cnt){$/;"	f
+MemCpy32	lstring.c	/^void MemCpy32(void *dest, void *src, int numWords){$/;"	f
+MemSet	lstring.c	/^void MemSet(void *dest, char c, int len){$/;"	f
+NAK	xmodem.c	48;"	d	file:
+NEWLINE	include/main.h	43;"	d
+NLP_ENABLE	include/scc.h	334;"	d
+NOPROTOCOL	include/net.h	36;"	d
+NO_AUTO_POLARITY	include/scc.h	246;"	d
+NULL	include/types.h	43;"	d
+NUM_KERNEL_BLOCKS	include/config.h	77;"	d
+NUM_LOADER_BLOCKS	include/config.h	95;"	d
+NUM_RAMDISK_BLOCKS	include/config.h	105;"	d
+NUM_RAMDISK_BLOCKS	include/config.h	90;"	d
+NetInit	net.c	/^bool NetInit(){$/;"	f
+OBJCOPY	Makefile	/^OBJCOPY = \/usr\/local\/hybus-arm-linux-R1.1\/bin\/arm-linux-objcopy$/;"	m
+OBJ_FILES	Makefile	/^OBJ_FILES = $(SFILES:%.S=%.o) $(CFILES:%.c=%.o)$/;"	m
+OCFLAGS	Makefile	/^OCFLAGS = -O binary -R .note -R .comment -S$/;"	m
+OP_BOOTREPLY	include/header.h	156;"	d
+OP_BOOTREQUEST	include/header.h	155;"	d
+OSCC	include/start_xscale.h	40;"	d
+OSCC	include/start_xscale_org.h	40;"	d
+OSCC	include/xscale.h	37;"	d
+OSCC_VALUE	include/start_xscale.h	46;"	d
+OSCC_VALUE	include/start_xscale_org.h	46;"	d
+OSCC_VALUE	include/xscale.h	46;"	d
+OSCR	include/start_xscale.h	48;"	d
+OSCR	include/start_xscale_org.h	48;"	d
+OSCR	include/xscale.h	48;"	d
+OUT_OF_RANGE	uucodec.c	19;"	d	file:
+PACKAGE	include/config.h	59;"	d
+PACKAGE	include/config.h	62;"	d
+PACKET_PAGE	include/header.h	/^} PACKET_PAGE;					\/\/ cs8900a.$/;"	t
+PACKET_PAGE_OFFSET	include/scc.h	450;"	d
+PART_NO_SIG	include/scc.h	145;"	d
+PART_NO_SIG	include/scc.h	149;"	d
+PGM_SETUP	include/flash.h	122;"	d
+PGM_SETUP	include/flash.h	86;"	d
+PKT_START	include/scc.h	378;"	d
+PNP_ACTIVATE	include/scc.h	508;"	d
+PNP_ADD_PORT	include/scc.h	496;"	d
+PNP_CNF_DMA	include/scc.h	512;"	d
+PNP_CNF_INT	include/scc.h	511;"	d
+PNP_CNF_IO_H	include/scc.h	509;"	d
+PNP_CNF_IO_L	include/scc.h	510;"	d
+PNP_CNF_MEM	include/scc.h	513;"	d
+PNP_CSN_CNT_OFF	include/scc.h	501;"	d
+PNP_FUNCTION_OK	include/scc.h	503;"	d
+PNP_IRQ_FRMT	include/scc.h	491;"	d
+PNP_ISA_STRUCT_LEN	include/scc.h	500;"	d
+PNP_RD_PORT_OFF	include/scc.h	502;"	d
+PNP_RSRC_DATA	include/scc.h	505;"	d
+PNP_RSRC_READY	include/scc.h	506;"	d
+PNP_STATUS	include/scc.h	507;"	d
+PNP_WAKE	include/scc.h	504;"	d
+PNP_WRITE_PORT	include/scc.h	497;"	d
+POLARITY_OK	include/scc.h	314;"	d
+PORT_BOOTPC	bootp.c	25;"	d	file:
+PORT_BOOTPS	bootp.c	24;"	d	file:
+POWER_ON_RESET	include/scc.h	251;"	d
+PP_AutoNegCTL	include/scc.h	88;"	d
+PP_AutoNegST	include/scc.h	100;"	d
+PP_BufCFG	include/scc.h	83;"	d
+PP_BufEvent	include/scc.h	93;"	d
+PP_BusCTL	include/scc.h	86;"	d
+PP_BusST	include/scc.h	98;"	d
+PP_CS8900_ISADMA	include/scc.h	63;"	d
+PP_CS8900_ISAINT	include/scc.h	61;"	d
+PP_CS8900_ISAMemB	include/scc.h	68;"	d
+PP_CS8920_ISADMA	include/scc.h	64;"	d
+PP_CS8920_ISAINT	include/scc.h	62;"	d
+PP_CS8920_ISAMemB	include/scc.h	69;"	d
+PP_ChipID	include/scc.h	57;"	d
+PP_ChipID2	include/scc.h	58;"	d
+PP_DebugReg	include/scc.h	77;"	d
+PP_DmaByteCnt	include/scc.h	67;"	d
+PP_DmaFrameCnt	include/scc.h	66;"	d
+PP_EECMD	include/scc.h	75;"	d
+PP_EEData	include/scc.h	76;"	d
+PP_IA	include/scc.h	104;"	d
+PP_ISABootBase	include/scc.h	71;"	d
+PP_ISABootMask	include/scc.h	72;"	d
+PP_ISAIOB	include/scc.h	60;"	d
+PP_ISASOF	include/scc.h	65;"	d
+PP_ISQ	include/scc.h	90;"	d
+PP_LAF	include/scc.h	103;"	d
+PP_LineCTL	include/scc.h	84;"	d
+PP_LineST	include/scc.h	96;"	d
+PP_RxCFG	include/scc.h	79;"	d
+PP_RxCTL	include/scc.h	80;"	d
+PP_RxEvent	include/scc.h	91;"	d
+PP_RxFrame	include/scc.h	108;"	d
+PP_RxLength	include/scc.h	107;"	d
+PP_RxMiss	include/scc.h	94;"	d
+PP_RxStatus	include/scc.h	106;"	d
+PP_SelfCTL	include/scc.h	85;"	d
+PP_SelfST	include/scc.h	97;"	d
+PP_TDR	include/scc.h	99;"	d
+PP_TestCTL	include/scc.h	87;"	d
+PP_TxCFG	include/scc.h	81;"	d
+PP_TxCMD	include/scc.h	82;"	d
+PP_TxCol	include/scc.h	95;"	d
+PP_TxCommand	include/scc.h	101;"	d
+PP_TxEvent	include/scc.h	92;"	d
+PP_TxFrame	include/scc.h	109;"	d
+PP_TxLength	include/scc.h	102;"	d
+PRODUCT_ID_ADD	include/scc.h	153;"	d
+PROTECTION_PROGRAM	include/flash.h	132;"	d
+PROTECTION_PROGRAM	include/flash.h	96;"	d
+PROT_ARP	include/header.h	81;"	d
+PROT_BOOTP	include/net.h	37;"	d
+PROT_IP	include/header.h	80;"	d
+PROT_RARP	include/header.h	82;"	d
+PROT_TFTP	include/net.h	38;"	d
+PSPR	include/start_xscale.h	170;"	d
+PSPR	include/start_xscale_org.h	162;"	d
+PSPR	include/xscale.h	151;"	d
+PSSR	include/start_xscale.h	171;"	d
+PSSR	include/start_xscale_org.h	163;"	d
+PSSR	include/xscale.h	152;"	d
+PSSR_PH	include/start_xscale.h	172;"	d
+PSSR_PH	include/start_xscale_org.h	164;"	d
+PSSR_PH	include/xscale.h	153;"	d
+PSSR_RDH	include/start_xscale.h	173;"	d
+PSSR_RDH	include/start_xscale_org.h	165;"	d
+PSSR_RDH	include/xscale.h	154;"	d
+PSSR_STATUS_MASK	include/start_xscale.h	174;"	d
+PSSR_STATUS_MASK	include/start_xscale_org.h	166;"	d
+PSSR_STATUS_MASK	include/xscale.h	155;"	d
+PUT_CHAR	uucodec.c	26;"	d	file:
+PktBuf	net.c	/^uchar	PktBuf[MAX_PKT_SIZE];$/;"	v
+Power	lstring.c	/^int Power(int num, int cnt){$/;"	f
+PrintChar	lstring.c	/^void PrintChar(char *fmt, char c){$/;"	f
+PrintDec	lstring.c	/^void PrintDec(char *fmt, int l){$/;"	f
+PrintEthAddr	net.c	/^void PrintEthAddr(char *ethAddr){$/;"	f
+PrintHex	lstring.c	/^void PrintHex(char *fmt, int l){$/;"	f
+PrintIPAddr	net.c	/^void PrintIPAddr(long ip){$/;"	f
+PrintString	lstring.c	/^void PrintString(char *fmt, char *s){$/;"	f
+RAMDISK_DRAM_BASE	include/config.h	101;"	d
+RAMDISK_DRAM_BASE	include/config.h	103;"	d
+RAMDISK_MAX_SIZE	include/config.h	99;"	d
+RAMDISK_SRAM_BASE	include/config.h	98;"	d
+RAM_SIZE	include/scc.h	377;"	d
+RARPOP_REPLY	include/header.h	133;"	d
+RARPOP_REQUEST	include/header.h	132;"	d
+RBUF_EVENT_HIGH	include/scc.h	399;"	d
+RBUF_EVENT_LOW	include/scc.h	398;"	d
+RBUF_HEAD_LEN	include/scc.h	402;"	d
+RBUF_LEN_HI	include/scc.h	401;"	d
+RBUF_LEN_LOW	include/scc.h	400;"	d
+RCNR	include/time.h	25;"	d
+RCSR	include/start_xscale.h	168;"	d
+RCSR	include/start_xscale_org.h	160;"	d
+RCSR	include/xscale.h	149;"	d
+RCSR_SLEEP	include/start_xscale.h	169;"	d
+RCSR_SLEEP	include/start_xscale_org.h	161;"	d
+RCSR_SLEEP	include/xscale.h	150;"	d
+RCV_AUTO_DMA	include/scc.h	370;"	d
+RCV_COUNTS	include/scc.h	365;"	d
+RCV_DMA	include/scc.h	371;"	d
+RCV_DMA_ALL	include/scc.h	372;"	d
+RCV_DONG	include/scc.h	367;"	d
+RCV_FIXED_DATA	include/scc.h	373;"	d
+RCV_IO	include/scc.h	374;"	d
+RCV_ISQ	include/scc.h	369;"	d
+RCV_MEMORY	include/scc.h	375;"	d
+RCV_POLLING	include/scc.h	368;"	d
+RCV_PONG	include/scc.h	366;"	d
+RCV_WITH_RXON	include/scc.h	364;"	d
+READY_FOR_TX	include/scc.h	302;"	d
+READY_FOR_TX_ENBL	include/scc.h	232;"	d
+READY_FOR_TX_NOW	include/scc.h	328;"	d
+READ_ARRAY	include/flash.h	116;"	d
+READ_ARRAY	include/flash.h	80;"	d
+READ_ID	include/flash.h	117;"	d
+READ_ID	include/flash.h	81;"	d
+READ_QUERY	include/flash.h	118;"	d
+READ_QUERY	include/flash.h	82;"	d
+REG_TYPE_MASK	include/scc.h	156;"	d
+RESET_RX_DMA	include/scc.h	261;"	d
+REVISON_BITS	include/scc.h	484;"	d
+RE_NEG_NOW	include/scc.h	331;"	d
+ROOT_DRAM_BASE	include/config.h	82;"	d
+ROOT_MAX_SIZE	include/config.h	85;"	d
+ROOT_MAX_SIZE	include/config.h	88;"	d
+ROOT_SRAM_BASE	include/config.h	81;"	d
+RXDMABUFSIZE	include/scc.h	359;"	d
+RXDMASIZE	include/scc.h	360;"	d
+RX_128_BYTE	include/scc.h	305;"	d
+RX_128_BYTE_ENBL	include/scc.h	235;"	d
+RX_ALL_ACCEPT	include/scc.h	205;"	d
+RX_BAD_CRC_ACCEPT	include/scc.h	202;"	d
+RX_BROADCAST	include/scc.h	282;"	d
+RX_BROADCAST_ACCEPT	include/scc.h	201;"	d
+RX_BUF_CFG	include/scc.h	163;"	d
+RX_CONTROL	include/scc.h	164;"	d
+RX_CRC_ERROR	include/scc.h	283;"	d
+RX_CRC_ERROR_ENBL	include/scc.h	191;"	d
+RX_DEST_MATCH	include/scc.h	308;"	d
+RX_DEST_MATCH_ENBL	include/scc.h	238;"	d
+RX_DMA	include/scc.h	301;"	d
+RX_DMA_ENBL	include/scc.h	231;"	d
+RX_DMA_ONLY	include/scc.h	188;"	d
+RX_DMA_SIZE_64K	include/scc.h	265;"	d
+RX_DRIBBLE	include/scc.h	278;"	d
+RX_EVENT	include/scc.h	174;"	d
+RX_EXTRA_DATA	include/scc.h	285;"	d
+RX_EXTRA_DATA_ACCEPT	include/scc.h	204;"	d
+RX_EXTRA_DATA_ENBL	include/scc.h	193;"	d
+RX_FRAME_PORT	include/scc.h	380;"	d
+RX_HASHED	include/scc.h	280;"	d
+RX_IA	include/scc.h	281;"	d
+RX_IA_ACCEPT	include/scc.h	200;"	d
+RX_IA_HASHED	include/scc.h	277;"	d
+RX_IA_HASH_ACCEPT	include/scc.h	196;"	d
+RX_MISS	include/scc.h	304;"	d
+RX_MISS_COUNT	include/scc.h	177;"	d
+RX_MISS_COUNT_OVRFLOW_ENBL	include/scc.h	237;"	d
+RX_MISS_ENBL	include/scc.h	234;"	d
+RX_MISS_OVRFLW	include/scc.h	307;"	d
+RX_MULTICAST_ACCEPT	include/scc.h	199;"	d
+RX_OK	include/scc.h	279;"	d
+RX_OK_ACCEPT	include/scc.h	198;"	d
+RX_OK_ENBL	include/scc.h	187;"	d
+RX_PROM_ACCEPT	include/scc.h	197;"	d
+RX_RUNT	include/scc.h	284;"	d
+RX_RUNT_ACCEPT	include/scc.h	203;"	d
+RX_RUNT_ENBL	include/scc.h	192;"	d
+RX_STREAM_ENBL	include/scc.h	186;"	d
+ReadByteWithTimeout	xmodem.c	/^int ReadByteWithTimeout(unsigned int timeout) {$/;"	f
+ReadFlush	xmodem.c	/^static inline void ReadFlush() { $/;"	f	file:
+ReadFromPPR	scc.c	/^static short ReadFromPPR(short addr){$/;"	f	file:
+RxPacket	net.c	/^bool RxPacket(char *rxPktBuf){$/;"	f
+RxPacketHandle	net.c	/^void RxPacketHandle(char *rxPktBuf, int len){$/;"	f
+SCRToBaud	uucodec.c	34;"	d	file:
+SDRAM_BASE	include/start_xscale.h	24;"	d
+SDRAM_BASE	include/start_xscale_org.h	24;"	d
+SDRAM_BASE	include/xscale.h	21;"	d
+SELF_CONTROL	include/scc.h	169;"	d
+SELF_STATUS	include/scc.h	180;"	d
+SERIAL_BAUD_115200	include/serial.h	40;"	d
+SERIAL_DOWNLOAD_SPEED	include/config.h	26;"	d
+SERIAL_H	include/serial.h	20;"	d
+SERIAL_RX_ON	include/scc.h	241;"	d
+SERIAL_SPEED	include/config.h	25;"	d
+SERIAL_TX_ON	include/scc.h	242;"	d
+SET_READ_CFG	include/flash.h	129;"	d
+SET_READ_CFG	include/flash.h	93;"	d
+SFILES	Makefile	/^SFILES = $(wildcard *.S)$/;"	m
+SI_BUSY	include/scc.h	320;"	d
+SKIP_1	include/scc.h	185;"	d
+SLEEP_ON	include/scc.h	253;"	d
+SOH	xmodem.c	44;"	d	file:
+SRAM_BASE_ADDR	include/config.h	43;"	d
+SRAM_BLOCK_SIZE	include/config.h	47;"	d
+SRAM_BLOCK_SIZE	include/config.h	49;"	d
+SRAM_SIZE	include/config.h	44;"	d
+STACK_POINT	include/config.h	70;"	d
+START_EEPROM_DATA	include/scc.h	488;"	d
+START_H	include/start_xscale.h	20;"	d
+START_H	include/start_xscale_org.h	20;"	d
+START_H	include/xscale.h	19;"	d
+STATUS_BUSY	include/flash.h	100;"	d
+STATUS_BUSY	include/flash.h	136;"	d
+STATUS_CLEAR	include/flash.h	120;"	d
+STATUS_CLEAR	include/flash.h	84;"	d
+STATUS_CMD_SEQ_ERR	include/flash.h	104;"	d
+STATUS_CMD_SEQ_ERR	include/flash.h	140;"	d
+STATUS_ERASE_ERR	include/flash.h	107;"	d
+STATUS_ERASE_ERR	include/flash.h	143;"	d
+STATUS_ERR_FILTER	include/flash.h	101;"	d
+STATUS_ERR_FILTER	include/flash.h	137;"	d
+STATUS_LOCK_DETECT	include/flash.h	102;"	d
+STATUS_LOCK_DETECT	include/flash.h	138;"	d
+STATUS_LOCK_ERR	include/flash.h	106;"	d
+STATUS_LOCK_ERR	include/flash.h	142;"	d
+STATUS_LOCK_ERR_FILTER	include/flash.h	109;"	d
+STATUS_LOCK_ERR_FILTER	include/flash.h	145;"	d
+STATUS_PGM_ERR	include/flash.h	105;"	d
+STATUS_PGM_ERR	include/flash.h	141;"	d
+STATUS_READ	include/flash.h	119;"	d
+STATUS_READ	include/flash.h	83;"	d
+STATUS_UNLOCK_ERR	include/flash.h	108;"	d
+STATUS_UNLOCK_ERR	include/flash.h	144;"	d
+STATUS_VOLT_RANG_ERR	include/flash.h	103;"	d
+STATUS_VOLT_RANG_ERR	include/flash.h	139;"	d
+STREAM_TRANSFER	include/scc.h	459;"	d
+STX	xmodem.c	45;"	d	file:
+SWAP16	include/main.h	39;"	d
+SWAP16	include/net.h	29;"	d
+SWAP32	include/main.h	40;"	d
+SWAP32	include/net.h	30;"	d
+SWAP8	include/main.h	38;"	d
+SWAP8	include/net.h	28;"	d
+SW_INTERRUPT	include/scc.h	300;"	d
+SW_STOP	include/scc.h	252;"	d
+SXCNFG	include/start_xscale.h	127;"	d
+SXCNFG	include/start_xscale_org.h	119;"	d
+SXCNFG	include/xscale.h	119;"	d
+SXCNFG_VALUE	include/start_xscale.h	156;"	d
+SXCNFG_VALUE	include/start_xscale_org.h	148;"	d
+SXCNFG_VALUE	include/xscale.h	137;"	d
+SerialInPutflush	xmodem.c	/^int  SerialInPutflush() { $/;"	f
+SerialInit	serial.c	/^void SerialInit(ulong baud){$/;"	f
+SerialInit	serial_no_rx.C	/^void SerialInit(ulong baud){$/;"	f
+SerialInputBlock	xmodem.c	/^int  SerialInputBlock(char *buf, int bufsize, const int timeout)$/;"	f
+SerialInputByte	serial.c	/^int SerialInputByte(char *c){$/;"	f
+SerialInputByte	serial_no_rx.C	/^int SerialInputByte(char *c){$/;"	f
+SerialInputChar	xmodem.c	/^int SerialInputChar(char *c){$/;"	f
+SerialInputString	uucodec.c	/^static int SerialInputString(char *s, const int len, const int timeout){$/;"	f	file:
+SerialOutputByte	serial.c	/^void SerialOutputByte(const char c){$/;"	f
+SerialOutputByte	serial_no_rx.C	/^void SerialOutputByte(const char c){$/;"	f
+SerialPutChar	xmodem.c	/^void  SerialPutChar(const char c){$/;"	f
+Serialtstc	xmodem.c	/^int Serialtstc(void){$/;"	f
+SetBootpHeader	bootp.c	/^void SetBootpHeader(char *bootpHeader){$/;"	f
+SetEtherHeader	net.c	/^void SetEtherHeader(char *ethHeader, char *hEth, ushort prot){$/;"	f
+SetIPHeader	net.c	/^void SetIPHeader(char *ipHeader, ulong clientIP, ulong hostIP, ushort len){$/;"	f
+SetUdpHeader	net.c	/^void SetUdpHeader(char *udpHeader, ushort hPort, ushort cPort, ushort len){$/;"	f
+StrCmp	lstring.c	/^int StrCmp(char *s1, char *s2){$/;"	f
+StrCpy	lstring.c	/^void StrCpy(char *dest, char *src){$/;"	f
+StrLen	lstring.c	/^int StrLen(char *dest){$/;"	f
+StrNCmp	lstring.c	/^int StrNCmp(char *s1, char *s2, int len){$/;"	f
+TDR	include/scc.h	182;"	d
+TENBASET_ON	include/scc.h	313;"	d
+TEST_CONTROL	include/scc.h	171;"	d
+TEST_MAX_RETRIES	uucodec.c	8;"	d	file:
+TFTP_ACK	tftp.c	30;"	d	file:
+TFTP_DATA	tftp.c	29;"	d	file:
+TFTP_ERROR	tftp.c	31;"	d	file:
+TFTP_NONE	tftp.c	34;"	d	file:
+TFTP_PORT	tftp.c	22;"	d	file:
+TFTP_RRQ	tftp.c	27;"	d	file:
+TFTP_STATE_BAD_MAGIC	tftp.c	38;"	d	file:
+TFTP_STATE_DATA	tftp.c	36;"	d	file:
+TFTP_STATE_FAILURE	tftp.c	40;"	d	file:
+TFTP_STATE_RRQ	tftp.c	35;"	d	file:
+TFTP_STATE_SUCCESS	tftp.c	39;"	d	file:
+TFTP_STATE_TOO_LARGE	tftp.c	37;"	d	file:
+TFTP_TIMEOUT	tftp.c	23;"	d	file:
+TFTP_WRQ	tftp.c	28;"	d	file:
+TIMEOUT	bootp.c	22;"	d	file:
+TIMEOUT	xmodem.c	52;"	d	file:
+TIMEOUT_COUNT	tftp.c	24;"	d	file:
+TWO_PART_DEFDIS	include/scc.h	247;"	d
+TXRXBUFSIZE	include/scc.h	358;"	d
+TXRX_LENGTH_MASK	include/scc.h	361;"	d
+TX_16_COL	include/scc.h	295;"	d
+TX_16_COL_ENBL	include/scc.h	216;"	d
+TX_AFTER_381	include/scc.h	384;"	d
+TX_AFTER_ALL	include/scc.h	385;"	d
+TX_ANY_COL_ENBL	include/scc.h	215;"	d
+TX_BID_ERROR	include/scc.h	327;"	d
+TX_CFG	include/scc.h	165;"	d
+TX_CMD_PORT	include/scc.h	382;"	d
+TX_COL_COUNT	include/scc.h	178;"	d
+TX_COL_COUNT_MASK	include/scc.h	297;"	d
+TX_COL_COUNT_OVRFLOW_ENBL	include/scc.h	236;"	d
+TX_COL_OVRFLW	include/scc.h	306;"	d
+TX_COMMAND	include/scc.h	166;"	d
+TX_CTL_OFFSET	include/scc.h	421;"	d
+TX_EVENT	include/scc.h	175;"	d
+TX_FORCE	include/scc.h	223;"	d
+TX_FRAME_PORT	include/scc.h	381;"	d
+TX_JBR	include/scc.h	294;"	d
+TX_JBR_ENBL	include/scc.h	214;"	d
+TX_LATE_COL	include/scc.h	293;"	d
+TX_LATE_COL_ENBL	include/scc.h	213;"	d
+TX_LEN_PORT	include/scc.h	386;"	d
+TX_LOST_CRS	include/scc.h	290;"	d
+TX_LOST_CRS_ENBL	include/scc.h	210;"	d
+TX_NOW	include/scc.h	383;"	d
+TX_NO_CRC	include/scc.h	226;"	d
+TX_OK	include/scc.h	292;"	d
+TX_OK_ENBL	include/scc.h	212;"	d
+TX_ONE_COL	include/scc.h	224;"	d
+TX_RUNT	include/scc.h	227;"	d
+TX_SEND_OK_BITS	include/scc.h	296;"	d
+TX_SQE_ERROR	include/scc.h	291;"	d
+TX_SQE_ERROR_ENBL	include/scc.h	211;"	d
+TX_START_128_BYTES	include/scc.h	221;"	d
+TX_START_4_BYTES	include/scc.h	219;"	d
+TX_START_64_BYTES	include/scc.h	220;"	d
+TX_START_ALL_BYTES	include/scc.h	222;"	d
+TX_TWO_PART_DEFF_DISABLE	include/scc.h	225;"	d
+TX_UNDERRUN	include/scc.h	303;"	d
+TX_UNDERRUN_ENBL	include/scc.h	233;"	d
+TftpRx	tftp.c	/^bool TftpRx(char *rxPktBuf, int len){$/;"	f
+TftpStart	tftp.c	/^bool TftpStart(char *filename){$/;"	f
+TftpTx	tftp.c	/^void TftpTx(char *txPktBuf){$/;"	f
+TimerInit	time.c	/^void TimerInit(void){$/;"	f
+TxPacket	net.c	/^bool TxPacket(char *txPktBuf, int len){$/;"	f
+UDP_HDR_SIZE	include/header.h	108;"	d
+UDP_HEADER	include/header.h	/^} UDP_HEADER;$/;"	t
+USE_CS0_FLASH	include/config.h	41;"	d
+USE_SERIAL_UUCODEC	include/config.h	28;"	d
+UUDecode	uucodec.c	/^static int UUDecode(char *bufBase, int bufLen) {$/;"	f	file:
+VAR_CHAR	include/types.h	/^	VAR_CHAR=8$/;"	e
+VAR_LONG	include/types.h	/^	VAR_LONG=32,$/;"	e
+VAR_SHORT	include/types.h	/^	VAR_SHORT=16,$/;"	e
+VAR_TYPE	include/types.h	/^} VAR_TYPE;$/;"	t
+VERSION	include/config.h	60;"	d
+VERSION	include/config.h	63;"	d
+WRITE_BUF	include/flash.h	121;"	d
+WRITE_BUF	include/flash.h	85;"	d
+WRITE_BUF_COMFIRM	include/flash.h	133;"	d
+WRITE_BUF_COMFIRM	include/flash.h	97;"	d
+WriteByte	xmodem.c	/^static inline void WriteByte(char cc) {$/;"	f	file:
+WriteToFlashBuffer	flash.c	/^bool WriteToFlashBuffer(void *dest, void *src){$/;"	f
+WriteToPPR	scc.c	/^static void WriteToPPR(short addr, short value){$/;"	f	file:
+XHYPER255B	include/config.h	19;"	d
+XModemReceive	xmodem.c	/^int XModemReceive(char *bufBase, int bufLen)$/;"	f
+_BOOTP_H_1251453153242423432	include/bootp.h	19;"	d
+_BUF1	include/scc.h	/^	} _BUF1;$/;"	m
+_BUF2	include/scc.h	/^	} _BUF2;$/;"	m
+_CMD_TBL	include/command.h	/^struct _CMD_TBL {$/;"	s
+_COMMAND_H_748126374816423412	include/command.h	19;"	d
+_CONFIG_H_4718034674012374874802	include/config.h	14;"	d
+_FLASH_H_4671264823649239432432	include/flash.h	19;"	d
+_LSTRInG_H_467326478126341264324	include/lstring.h	19;"	d
+_MAIN_H_465241632646492421432	include/main.h	19;"	d
+_NET_H_532453245234534534	include/net.h	19;"	d
+_PROTOCOL_H_42342134324234	include/header.h	19;"	d
+_SCC_H_42342134324234	include/scc.h	19;"	d
+_TFTP_H_65478236478614934324	include/tftp.h	19;"	d
+_TIME_H_416463482947123749237434	include/time.h	19;"	d
+_TYPES_H_4782374832742374327423	include/types.h	19;"	d
+_UTIL_H_467326478126341264324	include/util.h	19;"	d
+_UUCODEC_H_46146832674264632647324	include/uucodec.h	2;"	d
+_VA_ALIST_	include/stdarg.h	31;"	d
+_XMODEM_H_46146832674264632647324	include/xmodem.h	12;"	d
+__STDARG_H	include/stdarg.h	28;"	d
+_start	start_xscale.S	/^_start:$/;"	l
+ar_data	include/header.h	/^	uchar		ar_data[0];$/;"	m
+ar_hln	include/header.h	/^	uchar		ar_hln;		\/\/ Length of hardware address.$/;"	m
+ar_hrd	include/header.h	/^	ushort		ar_hrd;		\/\/ Format of hardware address.$/;"	m
+ar_op	include/header.h	/^	ushort		ar_op;		\/\/ Operation.$/;"	m
+ar_pln	include/header.h	/^	uchar		ar_pln;		\/\/ Length of protocol address.$/;"	m
+ar_pro	include/header.h	/^	ushort		ar_pro;		\/\/ Format of protocol address.$/;"	m
+bh_chaddr	include/header.h	/^	uchar		bh_chaddr[16];	\/\/ Client hardware address(Mac Address).$/;"	m
+bh_ciaddr	include/header.h	/^	ulong		bh_ciaddr;		\/\/ Client IP address.$/;"	m
+bh_file	include/header.h	/^	char		bh_file[128];	\/\/ Boot file name.$/;"	m
+bh_giaddr	include/header.h	/^	ulong		bh_giaddr;		\/\/ Gateway IP address.$/;"	m
+bh_hlen	include/header.h	/^	uchar		bh_hlen;		\/\/ Hardware address length.$/;"	m
+bh_hops	include/header.h	/^	uchar		bh_hops;		\/\/ Hop count (gateway thing).$/;"	m
+bh_htype	include/header.h	/^	uchar		bh_htype;		\/\/ Hardware type.$/;"	m
+bh_opcode	include/header.h	/^	uchar		bh_opcode;		\/\/ Operation.$/;"	m
+bh_res1	include/header.h	/^	ushort		bh_res1;		\/\/ Reserved(alignment).$/;"	m
+bh_secs	include/header.h	/^	ushort		bh_secs;		\/\/ Seconds since boot.$/;"	m
+bh_siaddr	include/header.h	/^	ulong		bh_siaddr;		\/\/ Server IP address(Server가 setting).$/;"	m
+bh_sname	include/header.h	/^	char		bh_sname[64];	\/\/ Server host name.$/;"	m
+bh_tid	include/header.h	/^	ulong		bh_tid;			\/\/ Transaction ID.$/;"	m
+bh_vend	include/header.h	/^	char		bh_vend[64];	\/\/ Vendor information.$/;"	m
+bh_yiaddr	include/header.h	/^	ulong		bh_yiaddr;		\/\/ Your (client) IP address.$/;"	m
+blockBuf	xmodem.c	/^static char blockBuf[1024];$/;"	v	file:
+bool	include/types.h	/^typedef int				bool;$/;"	t
+bootpID	bootp.c	/^ulong	bootpID;$/;"	v
+bootpState	bootp.c	/^short	bootpState;$/;"	v
+bootpc	bootp.c	/^ushort	bootpc=68;			\/\/ bootp client port #.$/;"	v
+bootps	bootp.c	/^ushort	bootps=67;			\/\/ bootp server port #.$/;"	v
+broadcastEther	bootp.c	/^uchar	broadcastEther[6]={0xff, 0xff, 0xff, 0xff, 0xff, 0xff};$/;"	v
+broadcastIP	bootp.c	/^ulong	broadcastIP = 0xffffffff;$/;"	v
+c_main	main.c	/^void c_main(){$/;"	f
+c_main	main_org.C	/^void c_main(){$/;"	f
+clientEther	net.c	/^uchar	clientEther[6] = CLIENT_ETHER;$/;"	v
+clientEther	net.c	/^uchar	clientEther[6];$/;"	v
+clientIP	net.c	/^ulong	clientIP=0;$/;"	v
+cmd	include/command.h	/^	char 	*cmd;		\/\/ 이 함수를 호출할 명령어.$/;"	m	struct:_CMD_TBL
+cmdTbl	command.c	/^CMD_TBL cmdTbl[] = {$/;"	v
+copy_loop	start_xscale.S	/^copy_loop:$/;"	l
+copy_to_ram	start_xscale.S	/^copy_to_ram:$/;"	l
+die	start_xscale.S	/^die:$/;"	l
+downloadSpeed	include/main.h	/^	long	downloadSpeed;$/;"	m
+et_ctl	include/header.h	/^	uchar		et_ctl;			\/\/ contorl.$/;"	m
+et_dest	include/header.h	/^	uchar		et_dest[6];		\/\/ Destination Mac Address.$/;"	m
+et_dsap	include/header.h	/^	uchar		et_dsap;		\/\/ DSAP.$/;"	m
+et_prot	include/header.h	/^	ushort		et_prot;		\/\/ protocol.$/;"	m
+et_protlen	include/header.h	/^	ushort		et_protlen;		\/\/ if ethernet header protocol, else length.$/;"	m
+et_snap1	include/header.h	/^	uchar		et_snap1;		\/\/ SNAP.$/;"	m
+et_snap2	include/header.h	/^	uchar		et_snap2;$/;"	m
+et_snap3	include/header.h	/^	uchar		et_snap3;$/;"	m
+et_src	include/header.h	/^	uchar		et_src[6];		\/\/ Source Mac Address.$/;"	m
+et_ssap	include/header.h	/^	uchar		et_ssap;		\/\/ SSAP.$/;"	m
+false	include/types.h	29;"	d
+getchar	main.c	/^char getchar(void){$/;"	f
+gpio_init	start_xscale.S	/^gpio_init:$/;"	l
+help	include/command.h	/^	char	*help;		\/\/ help에서 보여줄 message.$/;"	m	struct:_CMD_TBL
+helpMore	include/command.h	/^	char	*helpMore;$/;"	m	struct:_CMD_TBL
+hostEther	net.c	/^uchar	hostEther[6] = {0xff, 0xff, 0xff, 0xff, 0xff, 0xff};$/;"	v
+hostIP	bootp.c	/^ulong	hostIP;$/;"	v
+hostIP	net.c	/^ulong	hostIP=0;$/;"	v
+init_sdram	start_xscale.S	/^init_sdram:$/;"	l
+io_int	include/scc.h	/^	ushort		io_int;					\/\/ Interrupt Status Queue (0120h).$/;"	m
+io_ppdata16	include/scc.h	/^		ushort	io_ppdata16;	\/\/ Packet Page Data (16 bits).$/;"	m
+io_ppdata32	include/scc.h	/^		ulong	io_ppdata32;	\/\/ Packet Page Data (32 bits).$/;"	m
+io_ppptr	include/scc.h	/^	ushort		io_ppptr;				\/\/ Packet Page Pointer.$/;"	m
+io_rtx_data16	include/scc.h	/^		ushort	io_rtx_data16;	\/\/ data read and write (4 bytes 공간).$/;"	m
+io_rtx_data32	include/scc.h	/^		ulong	io_rtx_data32;$/;"	m
+io_txcmd	include/scc.h	/^	ushort		io_txcmd;				\/\/ transmit command (0144h).$/;"	m
+io_txlen	include/scc.h	/^	ushort		io_txlen;				\/\/ transmit data length (0146h).$/;"	m
+ipID	net.c	/^short	ipID;$/;"	v
+ip_chksum	include/header.h	/^	short	ip_chksum;	\/\/ checksum.$/;"	m
+ip_dest	include/header.h	/^	long	ip_dest;	\/\/ destination ip address.$/;"	m
+ip_hl_v	include/header.h	/^	char	ip_hl_v;	\/\/ version and header length(version은 현재 4, length는 4 byte 단위).$/;"	m
+ip_id	include/header.h	/^	short	ip_id;		\/\/ identification.$/;"	m
+ip_len	include/header.h	/^	short	ip_len;		\/\/ total length (IP Header를 포함한 길이).$/;"	m
+ip_off	include/header.h	/^	short	ip_off;		\/\/ fragment offset field.$/;"	m
+ip_p	include/header.h	/^	char	ip_p;		\/\/ protocol (UDP:17).$/;"	m
+ip_src	include/header.h	/^	long	ip_src;		\/\/ source ip address.$/;"	m
+ip_tos	include/header.h	/^	char	ip_tos;		\/\/ type of service.$/;"	m
+ip_ttl	include/header.h	/^	char	ip_ttl;		\/\/ time to live (원하는 값, 0x40 or 0xff).$/;"	m
+loadAddr	tftp.c	/^static ulong	loadAddr = 0;$/;"	v	file:
+noIP	bootp.c	/^ulong	noIP		= 0x00000000;$/;"	v
+pp_addr_filter	include/header.h	/^	uchar	pp_addr_filter[8];	\/\/ Logical Address Filter.$/;"	m
+pp_baddr	include/header.h	/^	ushort	pp_baddr;			\/\/ ip base address.$/;"	m
+pp_bprom_addr_mask	include/header.h	/^	ulong	pp_bprom_addr_mask;	\/\/ Boot PROM Address Mask.$/;"	m
+pp_bprom_base_addr	include/header.h	/^	ulong	pp_bprom_base_addr;	\/\/ Boot PROM Base Address.$/;"	m
+pp_conf_ctrl	include/header.h	/^	uchar	pp_conf_ctrl[32];	\/\/ Configuration & Control Registers.$/;"	m
+pp_dchan	include/header.h	/^	ushort	pp_dchan;			\/\/ DMA Channel Number.$/;"	m
+pp_dframe_cnt	include/header.h	/^	ushort	pp_dframe_cnt;		\/\/ DMA Frame Count.$/;"	m
+pp_dstart_frame	include/header.h	/^	ushort	pp_dstart_frame;	\/\/ DMA Start of Frame.$/;"	m
+pp_eeprom_cmd	include/header.h	/^	ushort	pp_eeprom_cmd;		\/\/ EEPROM Command.$/;"	m
+pp_eeprom_data	include/header.h	/^	ushort	pp_eeprom_data;		\/\/ EEPROM Data.$/;"	m
+pp_iaddr	include/header.h	/^	uchar	pp_iaddr[6];		\/\/ Individual Address.$/;"	m
+pp_id	include/header.h	/^	ulong	pp_id;				\/\/ Product identification.$/;"	m
+pp_int_num	include/header.h	/^	ushort	pp_int_num;			\/\/ interrupt number.$/;"	m
+pp_mbase_addr	include/header.h	/^	ulong	pp_mbase_addr;		\/\/ Memory Base Address Register.$/;"	m
+pp_res1	include/header.h	/^	uchar	pp_res1[28];		\/\/ reserved.$/;"	m
+pp_res2	include/header.h	/^	uchar	pp_res2[8];			\/\/ reserved.$/;"	m
+pp_res3	include/header.h	/^	uchar	pp_res3[12];		\/\/ reserved.$/;"	m
+pp_res4	include/header.h	/^	uchar	pp_res4[174];		\/\/ reserved.$/;"	m
+pp_res5	include/header.h	/^	uchar	pp_res5[4];$/;"	m
+pp_res6	include/header.h	/^	uchar	pp_res6[8];			\/\/ reserved.$/;"	m
+pp_res7	include/header.h	/^	uchar	pp_res7[674];$/;"	m
+pp_rx_dbyte_cnt	include/header.h	/^	ushort	pp_rx_dbyte_cnt;	\/\/ RxDMA Byte Count.$/;"	m
+pp_rxf_byte_cnt	include/header.h	/^	ushort	pp_rxf_byte_cnt;	\/\/ Received Frame Byte Counter.$/;"	m
+pp_rxfloc	include/header.h	/^	uchar	pp_rxfloc[1532];	\/\/ Rx Frame Location.$/;"	m
+pp_rxlen	include/header.h	/^	ushort	pp_rxlen;			\/\/ RxLength.$/;"	m
+pp_rxstatus	include/header.h	/^	ushort	pp_rxstatus;		\/\/ RxStatus.$/;"	m
+pp_state_event	include/header.h	/^	uchar	pp_state_event[32];	\/\/ Status & Event Registers.$/;"	m
+pp_txcmd	include/header.h	/^	ushort	pp_txcmd;			\/\/ TxCMD (transmit command).$/;"	m
+pp_txfloc	include/header.h	/^	uchar	pp_txfloc[1536];	\/\/ Tx Frame Location.$/;"	m
+pp_txlen	include/header.h	/^	ushort	pp_txlen;			\/\/ TxLENGTH (transmit length).$/;"	m
+printf	lstring.c	/^void printf(char *fmt, ...){$/;"	f
+protocol	net.c	/^short	protocol=NOPROTOCOL;$/;"	v
+putchar	main.c	/^void putchar(const char c){$/;"	f
+repeat	start_xscale.S	/^repeat:$/;"	l
+requestFile	tftp.c	/^static char	requestFile[128];$/;"	v	file:
+reset	start_xscale.S	/^reset:$/;"	l
+run	include/command.h	/^	bool	(*run)(struct _CMD_TBL *cptr, int argc, char **argv);	\/\/ function point.$/;"	m	struct:_CMD_TBL
+sdram_dly	start_xscale.S	/^sdram_dly:$/;"	l
+status	main.c	/^LOADER_STATUS	status;$/;"	v
+status	main_org.C	/^LOADER_STATUS	status;$/;"	v
+terminalSpeed	include/main.h	/^	long	terminalSpeed;$/;"	m
+tftpBlock	tftp.c	/^static unsigned short	tftpBlock = 0;$/;"	v	file:
+tftpClientPort	tftp.c	/^ushort		tftpClientPort = 7777;$/;"	v
+tftpHostPort	tftp.c	/^ushort		tftpHostPort=0;$/;"	v
+tftpLastBlock	tftp.c	/^static short	tftpLastBlock = 0;$/;"	v	file:
+tftpPort	tftp.c	/^ushort		tftpPort = 69;$/;"	v
+tftpState	tftp.c	/^static short	tftpState = 0;$/;"	v	file:
+tftpTimeout	tftp.c	/^static ulong	tftpTimeout;$/;"	v	file:
+true	include/types.h	28;"	d
+uchar	include/types.h	/^typedef unsigned char	uchar;$/;"	t
+udp_chksum	include/header.h	/^	ushort	udp_chksum;	\/\/ checksum.$/;"	m
+udp_dest	include/header.h	/^	ushort	udp_dest;	\/\/ udp destination port.$/;"	m
+udp_len	include/header.h	/^	ushort	udp_len;	\/\/ length of udp packet.$/;"	m
+udp_src	include/header.h	/^	ushort	udp_src;	\/\/ udp source port.$/;"	m
+uint	include/types.h	/^typedef unsigned int	uint;$/;"	t
+ulong	include/types.h	/^typedef unsigned long	ulong;$/;"	t
+usage	include/command.h	/^	char	*usage;		\/\/ command가 잘 못되었을 때 나올 message.$/;"	m	struct:_CMD_TBL
+ushort	include/types.h	/^typedef unsigned short	ushort;$/;"	t
+va_arg	include/stdarg.h	34;"	d
+va_arg	include/stdarg.h	39;"	d
+va_end	include/stdarg.h	35;"	d
+va_end	include/stdarg.h	40;"	d
+va_list	include/stdarg.h	/^   typedef char *va_list;$/;"	t
+va_start	include/stdarg.h	33;"	d
+va_start	include/stdarg.h	38;"	d
+wait_for_clock	start_xscale.S	/^wait_for_clock:$/;"	l
